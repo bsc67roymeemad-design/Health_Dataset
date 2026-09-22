@@ -51,13 +51,13 @@ export const Header: React.FC<HeaderProps> = ({
                   </span>
                 </div>
                 <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900 bg-clip-text text-transparent">
-                  รายงานพฤติกรรมโรคและปัจจัยเสี่ยง
+                  รายงานสรุปผลคัดกรองสุขภาพ
                 </h1>
               </div>
             </div>
 
             <p className="text-slate-600 text-sm sm:text-base max-w-3xl leading-relaxed">
-              แดชบอร์ดติดตามข้อมูลคัดกรองสุขภาพชุมชน วิเคราะห์ความสัมพันธ์ระหว่างพฤติกรรมการใช้ชีวิต 
+              แดชบอร์ดสรุปผลการคัดกรองสุขภาพชุมชน วิเคราะห์ความสัมพันธ์ระหว่างพฤติกรรมการใช้ชีวิต 
               ปัจจัยเสี่ยงต่อโรคไม่ติดต่อเรื้อรัง (NCDs) ภาวะเบาหวาน ความดันโลหิตสูง และประสิทธิผลของการออกกำลังกาย
             </p>
 
@@ -68,10 +68,6 @@ export const Header: React.FC<HeaderProps> = ({
                 <span>ผู้จัดทำ:</span>
                 <span className="font-semibold text-slate-900">นางสาวรอยมีย์ หมัดหลี</span>
                 <span className="text-slate-500">| หลักสูตร วท.บ เวชระเบียน ปี 3</span>
-              </div>
-              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-50 text-amber-800 border border-amber-200/60 text-xs font-medium">
-                <Sparkles className="w-3.5 h-3.5 text-amber-600" />
-                เวชระเบียนและการจัดการข้อมูลสุขภาพ
               </div>
             </div>
           </div>
