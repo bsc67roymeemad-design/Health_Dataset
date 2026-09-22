@@ -145,7 +145,9 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-rose-50/20 via-sky-50/20 to-violet-50/20 text-slate-800 pb-16">
+    <div className="min-h-screen bg-pastel-rainbow text-slate-800 pb-16 relative">
+      {/* Subtle top pastel rainbow accent line */}
+      <div className="h-1.5 w-full bg-gradient-to-r from-rose-400 via-amber-300 via-emerald-300 via-sky-300 via-indigo-300 to-pink-300 sticky top-0 z-50 shadow-2xs opacity-85" />
       {/* Container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 space-y-6">
         
@@ -270,7 +272,7 @@ export default function App() {
               <HeartPulse className="w-3.5 h-3.5" />
             </div>
             <span>
-              รายงานสรุปผลคัดกรองสุขภาพ • โครงการวิเคราะห์สารสนเทศสุขภาพชุมชน
+              รายงานสรุปผลคัดกรองสุขภาพ
             </span>
           </div>
 
